@@ -44,12 +44,9 @@
       }
     ?>
 	</select>
-<input type="submit" name="submit" value="Save"/>
+<input type="submit" name="submit" value="submit"/>
 <button type="Cancel" value="Cancel">Cancel</button>
 </form>
-</div>
-</body>
-</html>
 <script>
 function openLeftMenu() {
   document.getElementById("leftMenu").style.display = "block";
