@@ -62,15 +62,12 @@ if(isset($_POST['search'])){
 <?php
 foreach($list as $value){
     ?>
-    <p> <b>Price:  </b><?php echo $result['price']; ?></p>
-		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
-		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
-	</div>
-		
-			<a class="bots" href="pro_update.php?id=<?php echo $id ?>">Update/Edit</a>
-			<a class="bots" href="form_delete.php?id=<?php echo $id ?>">Delete/Trash</a>
-	
-	</div>
+    <table id="custom">
+    <tr>
+        <th>ID</th>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
 <?php
 }
     ?>
