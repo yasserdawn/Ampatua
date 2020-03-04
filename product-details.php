@@ -18,26 +18,26 @@ $value = $list;
           </ul>
       </div>
 
-    <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
-    </div>
 
 <h2>Product</h2>
 
 <table>
     <tr>
-        <th>Product</th> </b><?php echo $result['product']; ?></p>
-        <th>Description</th>  </b><?php echo $result['description']; ?></p>
-        <th>Price</th>  </b><?php echo $result['price']; ?></p>
-        <th>Category ID</th>  </b><?php echo $result['category']; ?></p>
+        <th>Product</th> </b>
+        <th>Description</th>  
+        <th>Price</th>  </b>
+        <th>Category ID</th>  
     </tr>
+	<tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><?php echo $value['description'];?></td>
+                    <td><?php echo $value['price'];?></td>
+                    <td><?php echo $value['category_id'];?></td>
+                    <td id ="link"><a href="form_update.php?id=<?php echo $id ?>">Update</a> or
+                    <a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
+                </tr>
 
-	
-</table>
-
-    <a href="pro_update.php?id=<?php echo $id ?>">Update</a></td>
-			<a class="bots" href="form_delete.php?id=<?php echo $id ?>">Delete</a>
+            </table>
+        </div> 
+</div>    
 </html>
