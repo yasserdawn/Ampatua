@@ -1,5 +1,5 @@
   
-<form action="pro_delete.php" method="POST">
+<form action="p_delete.php" method="POST">
 <h1> Delete</h1>
 <input type="text" name="id" placeholder="id"/>
 <input type="submit" name="submit" value="submit"/>
