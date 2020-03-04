@@ -46,12 +46,7 @@ $value = $list;
                 </tr>
 
             </table>
-        </div> 
-</div>    
-   <h1>API Test</h1>
-  </div>
-</div>
-
+        </div>
 <script>
 function openLeftMenu() {
   document.getElementById("leftMenu").style.display = "block";
