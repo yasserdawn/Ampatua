@@ -26,7 +26,7 @@
   </div>
 </div>
 	<?php
-	switch($navi){
+	switch($navigation){
 		case 'Home':
 			require_once('index.php');
 		break;
