@@ -1,4 +1,4 @@
-s<?php
+<?php
 $id = $_GET['id'];
 $name = $_POST['name'];
 $price = $_POST['price'];
@@ -28,4 +28,4 @@ curl_setopt_array($curl, array(
   
   curl_close($curl);
   echo $response;
-  header("location:index.php?navi=product");
+  header("location:index.php?navigation=product");;
