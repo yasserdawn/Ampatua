@@ -29,14 +29,15 @@ $value = $list;
 
 <table>
     <tr>
-        <th>Product</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Category ID</th>
+        <th>Product</th> </b><?php echo $result['product']; ?></p>
+        <th>Description</th>  </b><?php echo $result['description']; ?></p>
+        <th>Price</th>  </b><?php echo $result['price']; ?></p>
+        <th>Category ID</th>  </b><?php echo $result['category']; ?></p>
     </tr>
 
-
+	
 </table>
 
-    
+    <a href="pro_update.php?id=<?php echo $id ?>">Update</a></td>
+			<a class="bots" href="form_delete.php?id=<?php echo $id ?>">Delete</a>
 </html>
