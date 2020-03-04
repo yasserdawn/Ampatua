@@ -14,10 +14,9 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <div class="navbar">
-        <a href="index.php?navi=product">Show</a>
-        <a href="index.php?navi=categories">Category</a>
-        <a href="index.php?navi=create">Create</a>
-        <a href="index.php?navi=delete">Delete</a>
+        <a href="product.php?navigation=product">Product</a>
+        <a href="category.php?navigation=categories">Category</a>
+        <a href="form_create.php?navigation=create">Create</a>
     </div> 
 					
 		<div id="box">		
