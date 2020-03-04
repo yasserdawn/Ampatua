@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("http://rdapi.herokuapp.com/product/read_one.php");
+$json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
 
 $data = json_decode($json,true);
 $list = $data['records'];
@@ -46,7 +46,7 @@ if(isset($_POST['search'])){
 </div>
 <div id="box">
 <h1> Product List </h1>
-<form action="index.php?navigation=product" method="POST">
+<form action="product.php?navigation=product" method="POST">
 <div id="search">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
 		<input type="submit" name="submit" value="Search">
@@ -62,11 +62,10 @@ if(isset($_POST['search'])){
 <?php
 foreach($list as $value){
     ?>
-    <table id="custom">
     <tr>
-        <th>ID</th>
-        <th>Product</th>
-        <th>Price</th>
+        <td><?php echo $value['id'];?></td>
+        <td><a href="product.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+        <td><?php echo $value['price'];?></td>
     </tr>
 <?php
 }
@@ -89,6 +88,5 @@ function closeRightMenu() {
   document.getElementById("rightMenu").style.display = "none";
 }
 </script>
- 
 
  
