@@ -77,6 +77,11 @@ background-color: lightblue;
   width: 100%;
   min-height: 900px;
 }
+#list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
 	
   
