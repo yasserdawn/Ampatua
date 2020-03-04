@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
+$json = file_get_contents("http://rdapi.herokuapp.com/product/read_one.php");
 
 $data = json_decode($json,true);
 $list = $data['records'];
@@ -62,11 +62,15 @@ if(isset($_POST['search'])){
 <?php
 foreach($list as $value){
     ?>
-    <tr>
-        <td><?php echo $value['id'];?></td>
-        <td><a href="product-details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
-        <td><?php echo $value['price'];?></td>
-    </tr>
+    <p> <b>Price:  </b><?php echo $result['price']; ?></p>
+		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
+		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
+	</div>
+		
+			<a class="bots" href="pro_update.php?id=<?php echo $id ?>">Update/Edit</a>
+			<a class="bots" href="form_delete.php?id=<?php echo $id ?>">Delete/Trash</a>
+	
+	</div>
 <?php
 }
     ?>
