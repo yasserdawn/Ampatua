@@ -16,21 +16,33 @@
 
 
     <div class="navbar">	
-        <a href="product.php?navigation=product">Products</a>
-        <a href="categories.php?navigation=categories">Category</a>
-        <a href="form_create.php?navigation=create">Create</a>
-    </div>
-	
-		<?php
-		foreach($category as $cview){
-		?>
-			<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
-		
-		</select>
-	<input type="submit" name="submit" value="submit"/>
+        <a href="index.php?page=home" id = "home">Home</a>
+						<a href="product.php?page=product" id = "product">Show</a>
+						<a href="categories.php?page=categories" id = "category">Category</a>
+						<a href="form_create.php?page=create" id = "create">Create</a>
+					</div>
+					
+					
+		<div class="form-style-5">		
+				<h1> Update Product </h1>
+				<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
+					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/>
+					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
+					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/>
+					Category:<select name="category">
+					<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
+						<?php
+						foreach($category as $cview){
+						?>
+							<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
+						<?php
+						}
+						?>
+						</select>
+					<input type="submit" name="submit" value="submit"/>
 
-	
-</form>
-
-
+				</form>
+		</div>	
+			</div>	
+</div>	
 </html>
