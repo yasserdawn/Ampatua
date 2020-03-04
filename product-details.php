@@ -24,7 +24,7 @@ $value = $list;
 <div class="w3-teal">
   <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
  
-<div id="contents">
+<div id="box">
 <h2>Product Details</h2>
 
 <table id="list">
