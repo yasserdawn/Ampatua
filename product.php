@@ -33,9 +33,9 @@ if(isset($_POST['search'])){
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
   <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
   <a href="index.php?navigation=home" class="w3-bar-item w3-button">Home</a>
-  <a href="product.php?navigation=product" class="w3-bar-item w3-button">Products</a>
-  <a href="categories.php?navigation=categories" class="w3-bar-item w3-button">Category</a>
-  <a href="form_create.php?navigation=create" class="w3-bar-item w3-button">Create Products</a>
+  <a href="product.php?navig=product" class="w3-bar-item w3-button">Products</a>
+  <a href="categories.php?navi=categories" class="w3-bar-item w3-button">Category</a>
+  <a href="form_create.php?navi=create" class="w3-bar-item w3-button">Create Products</a>
 </div>
 
 <div class="w3-teal">
@@ -46,7 +46,7 @@ if(isset($_POST['search'])){
 </div>
 <div id="box">
 <h1> Product List </h1>
-<form action="index.php?navigation=product" method="POST">
+<form action="index.php?navi=product" method="POST">
 <div id="search">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
 		<input type="submit" name="submit" value="Search">
