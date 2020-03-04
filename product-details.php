@@ -29,7 +29,7 @@ $value = $list;
 <div id="box">
 <h2>Product Details</h2>
 
-<table id="list">
+<div id="custom">
     <tr>
         <th>Product</th> </b>
         <th>Description</th>  
