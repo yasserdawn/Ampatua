@@ -13,12 +13,12 @@
     <head>  
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <div class="navbar">	
-        		<a href="index.php?page=home" id = "home">Home</a> 
-			<a href="product.php?page=product" id = "product">Show</a> 
-			<a href="categories.php?page=categories" id = "category">Category</a> 
-			<a href="form_create.php?page=create" id = "create">Create</a> 	 
-	</div>
+    <div class="navbar">
+        <a href="index.php?navi=product">Show</a>
+        <a href="index.php?navi=categories">Category</a>
+        <a href="index.php?navi=create">Create</a>
+        <a href="index.php?navi=delete">Delete</a>
+    </div> 
 					
 		<div id="box">		
 				<h1> Update Product </h1>
