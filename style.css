@@ -73,6 +73,11 @@ background-color: lightblue;
 #link a{
   text-decoration: none;
 }   
+#content{
+  width: 100%;
+  min-height: 900px;
+}
+
 	
   
  
