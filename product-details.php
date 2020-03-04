@@ -17,9 +17,9 @@ $value = $list;
   <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
 	 <div class="navbar">
         <ul>
-            <li><a href="index.php?navigation=product">Products</a></li> class="w3-bar-item w3-button">Products</a>
-            <li><a href="index.php?navigation=categories">Category</a></li> class="w3-bar-item w3-button">Category</a>
-            <li><a href="index.php?navigation=create">Create</a></li> class="w3-bar-item w3-button">Create Products</a>
+            <li><a href="product.php?navigation=product">Products</a></li> class="w3-bar-item w3-button">Products</a>
+            <li><a href="categories.php?navigation=categories">Category</a></li> class="w3-bar-item w3-button">Category</a>
+            <li><a href="form_create.php?navigation=create">Create</a></li> class="w3-bar-item w3-button">Create Products</a>
           </ul>
       </div>
 
