@@ -10,14 +10,20 @@ $value = $list;
     <head>  
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
 	 <div class="navbar">
         <ul>
-            <li><a href="index.php?navigation=product">Products</a></li>
-            <li><a href="index.php?navigation=categories">Category</a></li>
-            <li><a href="index.php?navigation=create">Create</a></li>
+            <li><a href="index.php?navigation=product">Products</a></li> class="w3-bar-item w3-button">Products</a>
+            <li><a href="index.php?navigation=categories">Category</a></li> class="w3-bar-item w3-button">Category</a>
+            <li><a href="index.php?navigation=create">Create</a></li> class="w3-bar-item w3-button">Create Products</a>
           </ul>
       </div>
 
+ 
 <div id="contents">
 <h2>Product Details</h2>
 
@@ -41,3 +47,4 @@ $value = $list;
         </div> 
 </div>    
 </html>
+
