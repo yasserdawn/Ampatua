@@ -18,10 +18,10 @@ $value = $list;
           </ul>
       </div>
 
+<div id="contents">
+<h2>Product Details</h2>
 
-<h2>Product</h2>
-
-<table>
+<table id="list">
     <tr>
         <th>Product</th> </b>
         <th>Description</th>  
