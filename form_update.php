@@ -18,6 +18,7 @@
 			<a href="product.php?page=product" id = "product">Show</a> 
 			<a href="categories.php?page=categories" id = "category">Category</a> 
 			<a href="form_create.php?page=create" id = "create">Create</a> 	 
+	</div>
 					
 		<div id="box">		
 				<h1> Update Product </h1>
@@ -39,7 +40,5 @@
 					<input type="submit" name="submit" value="submit"/>
 
 				</form>
-	</div>
-	</div>
 
 </html>
