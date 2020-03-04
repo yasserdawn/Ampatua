@@ -26,19 +26,21 @@
   </div>
 </div>
 	<?php
-	switch($load){
+	switch($navigation){
 		case 'Home':
-			require_once('index.php');
+		require_once('index.php');
 		break;
 		case 'product':
-			require_once('product.php');
+		require_once('product.php');
 		break;	
 		case 'category':
-			require_once('categories.php');
+		require_once('categories.php');
 		break;
-          case 'create':
-            require_once 'form_create.php';
-            break;
+          	case 'create':
+          	require_once 'form_create.php';
+          	break;
+		require_once 'product-details.php';
+            	break;
          
            
         }
@@ -66,9 +68,4 @@ function closeRightMenu() {
  <div id="footer">
 		<h3>Footer</h3>
 		</div>
-		
-     
-</body>
 </html>
-
-
