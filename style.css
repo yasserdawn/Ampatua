@@ -65,7 +65,14 @@ background-color: lightblue;
   #box {
 	  text-align: center;
   }
-	   
+#link a {
+  text-decoration: none;
+  color:black;
+}
+
+#link a{
+  text-decoration: none;
+}   
 	
   
  
