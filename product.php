@@ -57,7 +57,7 @@ foreach($list as $value){
     ?>
     <tr>
         <td><?php echo $value['id'];?></td>
-          <td><a href="form_update.php?&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+          <td><a href="pro-details.php?&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
