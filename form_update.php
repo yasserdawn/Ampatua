@@ -42,7 +42,7 @@
 					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/> <br/><textarea class="w3-input w3-border w3-round-large" name="description" placeholder="Enter Item Description"/></textarea><br/><br/>
 					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/> <br/><input class="w3-input w3-border w3-round-large" type="number" name="price" placeholder="Enter Product Price"/><br/><br/>
 					Category:<select name="category"> <select class="w3-select w3-border" name="category">
-					<option value="">Category</option>
+					<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
 						<?php
 						foreach($category as $cview){
 						?>
