@@ -9,8 +9,13 @@
 	$data2 = json_decode($json2,true);
 	$category = $data2['records'];
 ?>
-<html> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title> API Test </title>
+		<link rel="stylesheet" href="style.css">
+
+		
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
@@ -28,8 +33,6 @@
     <h1>API Test</h1>
   </div>
 </div>
-					
-					
 		<div id="box">		
 				<h1> Update Product </h1>
 </div>
