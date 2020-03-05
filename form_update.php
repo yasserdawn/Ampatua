@@ -13,15 +13,19 @@
     <head>  
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <div class="navbar">
-        <a href="product.php?navigation=product">Product</a>
-        <a href="category.php?navigation=categories">Category</a>
-        <a href="form_create.php?navigation=create">Create</a>
-    </div> 
+	<br>
+<div id="container">
+			<div id="content">
+					<div class="navbar">
+						<a href="index.php?page=home" id = "home">Home</a>
+						<a href="index.php?page=product" id = "product">Show</a>
+						<a href="index.php?page=categories" id = "category">Category</a>
+						<a href="index.php?page=create" id = "create">Create</a>
+					</div>
 					
-		<div id="box">		
+					
+		<div class="form-style-5">		
 				<h1> Update Product </h1>
-</div>
 				<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/>
 					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
@@ -39,5 +43,7 @@
 					<input type="submit" name="submit" value="submit"/>
 
 				</form>
-
+		</div>	
+			</div>	
+</div>	
 </html>
