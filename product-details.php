@@ -34,7 +34,7 @@ $value = $list;
                     <td><?php echo $value['price'];?></td>
                     <td><?php echo $value['category_id'];?></td>
 </table>
-                    <td id ="link"><a href="form_update.php?id=<?php echo $id ?>">Update</a> or
+                    <td id ="link"><a href="index.php?id=<?php echo $id ?>">Update</a> or
                     <a href="p_delete.php?id=<?php echo $id ?>">Delete</a></td>
                 </tr>
 
