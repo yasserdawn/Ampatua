@@ -25,6 +25,7 @@ $value = $list;
     <h1>API Test</h1>
   </div>
 </div>
+<div id="box">
 <h2>Product Details</h2>
 
 <table id="custom">
