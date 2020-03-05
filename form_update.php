@@ -17,13 +17,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
-  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-  <a href="index.php?navi=home" class="w3-bar-item w3-button">Home</a>
-  <a href="product.php?navin=product" class="w3-bar-item w3-button">Products</a>
-  <a href="categories.php?navi=categories" class="w3-bar-item w3-button">Category</a>
-  <a href="form_create.php?navi=create" class="w3-bar-item w3-button">Create Products</a>
-</div>
+
 
 <div class="w3-teal">
   <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
