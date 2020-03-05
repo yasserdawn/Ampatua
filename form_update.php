@@ -38,11 +38,11 @@
 </div>
 			<table id="custom">
 				<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
-					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/>
-					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
-					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/>
-					Category:<select name="category">
-					<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
+					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/> <br/><input class="w3-input w3-border w3-round-large" type="text" name="name" placeholder="Enter Product Name"/><br/><br/>
+					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/> <br/><textarea class="w3-input w3-border w3-round-large" name="description" placeholder="Enter Item Description"/></textarea><br/><br/>
+					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/> <br/><input class="w3-input w3-border w3-round-large" type="number" name="price" placeholder="Enter Product Price"/><br/><br/>
+					Category:<select name="category"> <select class="w3-select w3-border" name="category">
+					<option value="">Category</option>
 						<?php
 						foreach($category as $cview){
 						?>
