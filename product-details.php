@@ -13,11 +13,8 @@ $value = $list;
         <a href="product.php?navigation=product">Product</a>
         <a href="categories.php?navigation=categories">Category</a>
         <a href="form_create.php?navigation=create">Create</a>
-        <a href="p_delete.php?navigation=delete">Delete</a>
     </div>
 
-<div class="w3-teal">
-  <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
   <h1>API Test</h1>
   </div>
 <div id="box">
