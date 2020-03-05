@@ -33,7 +33,7 @@ if(isset($_POST['search'])){
 </div>
 <div id="box">
 <h1> Product List </h1>
-<form action="index.php?navigation=product" method="POST">
+<form action="?navigation=product&id=" method="POST">
 <div id="search">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
 		<input type="submit" name="submit" value="Search">
@@ -51,7 +51,7 @@ foreach($list as $value){
     ?>
     <tr>
         <td><?php echo $value['id'];?></td>
-          <td><a href="index.php?navigation=details<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+          <td><a href="?navigation=details&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
