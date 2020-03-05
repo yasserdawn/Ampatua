@@ -10,7 +10,7 @@
 	$category = $data2['records'];
 ?>
 <html> 
-    <<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
@@ -33,6 +33,7 @@
 		<div id="box">		
 				<h1> Update Product </h1>
 </div>
+			<table id="custom">
 				<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/>
 					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
