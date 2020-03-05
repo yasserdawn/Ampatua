@@ -28,8 +28,6 @@ if(isset($_POST['search'])){
 		</head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-
  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
   <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
   <a href="index.php?navigation=home" class="w3-bar-item w3-button">Home</a>
