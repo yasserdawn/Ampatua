@@ -40,15 +40,15 @@ $value = $list;
         <th>Price</th>  </b>
         <th>Category ID</th>  
     </tr>
-
-		<tr>
-                    <td><?php echo $value['name'];?></td>
-                    <td><?php echo $value['description'];?></td>
-                    <td><?php echo $value['price'];?></td>
-                    <td><?php echo $value['category_id'];?></td>
-		</tr>
-			<a href="form_update.php?id=<?php echo $id ?>">Update</a> or
-							<a href="p_delete.php?id=<?php echo $id ?>">Delete</a> 
+	<table id="custom">
+	<tr>
+        <td><?php echo $value['name'];?></td>
+        <td><?php echo $value['description'];?></td>
+        <td><?php echo $value['price'];?></td>
+        <td><?php echo $value['category_id'];?></td>
+        <td><a href="form_update.php?id=<?php echo $id ?>">Update</a></td>
+        <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
+    </tr>
 </table>
 
 <script>
