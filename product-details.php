@@ -6,8 +6,12 @@ $details = array('records' => $data);
 $list = $details['records'];
 $value = $list;
 ?>
-<html> 
-    <head>  
+<title> API Test </title>
+		<link rel="stylesheet" href="style.css">
+
+		
+</head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
