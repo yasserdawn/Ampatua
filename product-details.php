@@ -40,7 +40,7 @@ $value = $list;
         <th>Price</th>  </b>
         <th>Category ID</th>  
     </tr>
-	<table id="custom">
+	<div id ="link">
 	<tr>
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['description'];?></td>
