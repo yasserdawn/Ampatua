@@ -10,10 +10,10 @@ $value = $list;
     <head>  
 
   <div class="navbar">
-        <a href="index.php?navigation=product">Product</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
+        <a href="product.php?navigation=product">Product</a>
+        <a href="categories.php?navigation=categories">Category</a>
+        <a href="form_create.php?navigation=create">Create</a>
+        <a href="p_delete.php?navigation=delete">Delete</a>
     </div>
 
 <div class="w3-teal">
