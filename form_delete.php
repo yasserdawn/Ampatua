@@ -23,4 +23,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
-header("location:index.php?page=list")
+header("location:index.php?navigation=product")
