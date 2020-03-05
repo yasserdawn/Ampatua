@@ -39,9 +39,6 @@
           	case 'create':
           	require_once 'form_create.php';
           	break;
-		case 'details':
-		require_once 'product-details.php';
-            	break;
            
         }
 
