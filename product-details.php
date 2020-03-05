@@ -40,8 +40,6 @@ $value = $list;
 
             </table>
         </div>
-<input type="submit" name="submit" value="submit"/>
-<button type="Cancel" value="Cancel">Cancel</button>
 </form>
 </body>
 </html>
