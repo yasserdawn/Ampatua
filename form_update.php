@@ -17,10 +17,10 @@
 <div id="container">
 			<div id="content">
 					<div class="navbar">
-						<a href="index.php?page=home" id = "home">Home</a>
-						<a href="index.php?page=product" id = "product">Show</a>
-						<a href="index.php?page=categories" id = "category">Category</a>
-						<a href="index.php?page=create" id = "create">Create</a>
+						<a href="index.php?navigation=home" id = "home">Home</a>
+						<a href="index.php?navigation=product" id = "product">Show</a>
+						<a href="index.php?navigation=categories" id = "category">Category</a>
+						<a href="index.php?navigation=create" id = "create">Create</a>
 					</div>
 					
 					
