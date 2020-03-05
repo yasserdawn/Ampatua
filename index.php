@@ -14,8 +14,8 @@
   <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
   <a href="index.php?navigation=home" class="w3-bar-item w3-button">Home</a>
   <a href="product.php?navigation=product" class="w3-bar-item w3-button">Products</a>
-  <a href="categories.php?navigation=home" class="w3-bar-item w3-button">Category</a>
-  <a href="form_create.php?navigation=home" class="w3-bar-item w3-button">Create Products</a>
+  <a href="categories.php?navigation=categories" class="w3-bar-item w3-button">Category</a>
+  <a href="form_create.php?navigation=create" class="w3-bar-item w3-button">Create Products</a>
 </div>
 
 <div class="w3-teal">
