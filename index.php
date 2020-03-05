@@ -42,6 +42,9 @@
 		case 'details':
 		require_once 'product-details.php';
             	break;
+		case 'formup':
+		include ('form_update.php');
+            	break;
          
            
         }
