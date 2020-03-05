@@ -13,9 +13,9 @@
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
   <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
   <a href="index.php?navigation=home" class="w3-bar-item w3-button">Home</a>
-  <a href="?navigation=product&id=" class="w3-bar-item w3-button">Products</a>
-  <a href="?navigation=categories&id=" class="w3-bar-item w3-button">Category</a>
-  <a href="?navigation=create&id=" class="w3-bar-item w3-button">Create Products</a>
+  <a href="product.php?navigation=product" class="w3-bar-item w3-button">Products</a>
+  <a href="categories.php?navigation=home" class="w3-bar-item w3-button">Category</a>
+  <a href="form_create.php?navigation=home" class="w3-bar-item w3-button">Create Products</a>
 </div>
 
 <div class="w3-teal">
@@ -31,20 +31,18 @@
 		require_once('index.php');
 		break;
 		case 'product':
-		include('product.php');
+		require_once 'product.php';
 		break;	
 		case 'categories':
-		include('categories.php');
+		require_once 'categories.php';
 		break;
           	case 'create':
-          	include 'form_create.php';
+          	require_once 'form_create.php';
           	break;
 		case 'details':
-		include 'product-details.php';
+		require_once 'product-details.php';
             	break;
-		case 'formup':
-		include ('form_update.php');
-            	break;
+		
          
            
         }
