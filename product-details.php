@@ -49,7 +49,7 @@ $value = $list;
 		
 			<a href="form_update.php?id=<?php echo $id ?>">Update</a> or
 							<a href="p_delete.php?id=<?php echo $id ?>">Delete</a> </li>
-						</div>
+				
     </tr>
 
 </table>
