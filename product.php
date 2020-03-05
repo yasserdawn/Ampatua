@@ -39,7 +39,7 @@ if(isset($_POST['search'])){
 </div>
 <div id="box">
 <h1> Product List </h1>
-<form action="product-details.php?navigation=product" method="POST">
+<form action="product.php?navigation=product" method="POST">
 <div id="search">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
 		<input type="submit" name="submit" value="Search">
