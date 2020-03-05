@@ -36,12 +36,12 @@ if(isset($_POST['search'])){
   <a href="product.php?navigation=product" class="w3-bar-item w3-button">Products</a>
   <a href="categories.php?navigation=categories" class="w3-bar-item w3-button">Category</a>
   <a href="form_create.php?navigation=create" class="w3-bar-item w3-button">Create Products</a>
-</div>
-</div>
+
 <div class="w3-teal">
   <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
-</div>
     <h1>API Test</h1>
+  </div>
+</div>
 <div id="box">
 <h1> Product List </h1>
 <form action="index.php?navigation=product" method="POST">
